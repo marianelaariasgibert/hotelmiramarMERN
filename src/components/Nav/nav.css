@@ -1,0 +1,33 @@
+.navBrand {
+  color:#ead1e5;
+}
+
+.navbar-toggler-icon{
+  background-image: url(../images/navBar.png);
+  background-size: 70%;
+}
+.navMenu {
+  background-color: #ead1e5;
+  padding-left: 1.5rem;
+}
+.navHeader {
+  color: #e55bc7;
+}
+.textLink {
+  text-decoration: none;
+  color: #e55bc7;
+  cursor: pointer;
+  transition: 100ms ease-in-out;
+}
+.textLink:hover {
+  color: #e55bc7;
+  font-size: 1.1em;
+}
+.btn-clse:focus{
+ box-shadow: none;
+ outline: none;
+ border-style: none;
+}
+.navbar{
+  width: 100% !important;
+}

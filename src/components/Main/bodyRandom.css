@@ -1,0 +1,469 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500&display=swap");
+.container-index {
+  background-color: #fbe7f7;
+  overflow: hidden;
+}
+.section-icons p {
+  font-family: "Poppins", sans-serif;
+  color: #8f457f;
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icons {
+  border-top: 3px solid #8f457f;
+  padding: 0.5rem;
+  color: #8f457f;
+  margin: 2rem 2rem 0 2rem;
+  display: flex;
+  align-items: stretch;
+  justify-content: space-around;
+}
+.section-icons {
+  text-align: center;
+  width: 25%;
+  height: auto;
+  margin: 1rem;
+}
+.section-icon_p{
+  text-align: start;
+}
+.parrafo{
+  text-align: center;
+  color: #8f457f;
+ margin-bottom: 3rem;
+}
+.main-parra {
+  text-align: center;
+  color: #8f457f;
+  margin: 0 2rem 0rem 2rem;
+  padding: 0 1rem 1rem 1rem;
+  font-family: "Poppins", sans-serif;
+}
+.bode-parra {
+  border-bottom: solid #8f457f;
+}
+.top-border {
+  border-top: solid #8f457f;
+}
+.main-parra_h4 {
+  font-size: 1.5em;
+  letter-spacing: 2px;
+  margin: 0 0 2rem 0;
+}
+.footer-container {
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.footer-p {
+  margin-top: 1rem;
+}
+.footer-button {
+  margin-top: 2rem;
+  padding: 0.5rem 1.3rem 0.5rem 1.3rem;
+  color: #8f457f;
+  border: 2px solid #8f457f;
+  background-color: transparent;
+  transition: 0.5s ease-in all;
+  font-size: 1rem;
+}
+.footer-button:hover {
+  background-color: #8f457f;
+  color: #fbe7f7;
+}
+.footer-redes {
+  width: 40vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  cursor: pointer;
+}
+.header-secciones {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 25vh;
+  padding-top: 2.5rem;
+  color: #8f457f;
+  background-color: #fbe7f7;
+}
+.header-secciones__H1 {
+  font-size: 1.7em;
+  letter-spacing: 2px;
+}
+.header-secciones__hr {
+  height: 3px;
+  background-color: #8f457f;
+  opacity: 2;
+  width: 100%;
+}
+/*GALERIA HABITACIONES*/
+.galeria-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container-linea {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.lineaa {
+  border: 4px solid #8f457f;
+  width: 80%;
+  opacity: 2;
+  margin-bottom: 1.5rem;
+}
+
+.habi-h1 {
+  background-color: #fbe7f7;
+  color: #8f457f;
+  padding: 1rem;
+  position: absolute;
+  z-index: 2;
+  top: -15px;
+  font-size: 1.7em;
+  letter-spacing: 1.5px;
+}
+
+.galeria-swiperItem {
+  display: flex;
+ flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.swiper-container {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  
+}
+
+.swiper-itemsText {
+  top:63%;
+  left: 5px;
+  position: absolute;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.swiper-h4 {
+  letter-spacing: 2.5px;
+  margin-bottom: 0.8rem;
+}
+.mySwiper {
+  width: 15rem;
+  height: 50vh;
+  position: relative;
+}
+.swiper-margin {
+  margin-bottom: 3rem;
+}
+.swiper-pagination {
+  display: none;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #fbe7f7 !important;
+}
+/*MODAL*/
+.modal-content {
+  background-color: #fbe7f7;
+  color: #8f457f;
+}
+
+.modal-header {
+  border-bottom: 3px solid #8f457f;
+}
+.modal-title {
+  font-size: 1.7em;
+}
+.modal-body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.modal-body p {
+  font-family: "Poppins", sans-serif;
+  padding: 1rem;
+}
+/*FORM RESERVA*/
+.form {
+  font-family: "Poppins", sans-serif;
+}
+.form-select:focus {
+  outline: none;
+  box-shadow: none;
+  border: 1px solid #8f457f;
+}
+.form-control:focus {
+  outline: none;
+  box-shadow: none;
+  border: 1px solid #8f457f;
+}
+
+.btn-ver {
+  cursor: pointer;
+  z-index: 999;
+}
+.btn-submit {
+  color: #8f457f;
+  background-color: #fbe7f7;
+  cursor: pointer;
+  outline: none;
+  padding: 0.5rem 1.3rem 0.5rem 1.3rem;
+  border: 2px solid #8f457f;
+  transition: 0.5s ease-in all;
+  font-size: 1rem;
+}
+.margen-xl{
+  margin-bottom: .2rem;
+}
+.modal-title{
+  font-size: 1.3em;
+}
+.error{
+  font-size: .8em;
+  margin: 0;
+  padding: .4rem 0 0 .2rem !important;
+  color: red;
+}
+textarea.form-control{
+  resize: none;
+}
+.alert-light{
+  border: 2px solid #8f457f;
+}
+/*CONTACTO*/
+.contact-index {
+  background-color: #fbe7f7;
+  color: #8f457f;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  padding: 20px;
+}
+.h4-contact{
+  text-align: start;
+  font-size: 1.2em;
+}
+.margin-f{
+  margin-top: 3rem;
+}
+.form-control{
+  border: 2px solid #8f457f;
+}
+.footer-contact{
+  color: #8f457f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+.item-footer{
+  display: flex;
+  align-items: center;
+  margin-bottom: .5rem;
+}
+.btn-footer{
+  text-decoration: none;
+  color: #8f457f;
+  z-index: 999;
+  padding: 1em;
+}
+.btn-footer:hover{
+  color: #fbe7f7;
+}
+.h3-icon{
+  margin-right: 1rem;
+}
+.h6-text{
+  font-size: 1em;
+  margin: 0;
+}
+/*RESPONSIVE DETALLES*/
+@media only screen and (min-width: 569px) {
+  .swiper-slide h4 {
+    font-size: 1.3em;
+  }
+  .swip-items {
+    position: absolute;
+    top: 64%;
+  }
+  .modal-title{
+    font-size: 1.7em;
+  }
+  .h4-contact{
+    text-align: center;
+    font-size: 1.5em;
+  }
+  .h6-text{
+    font-size: 1.3em;
+  }
+  
+}
+/*RESPONSIVE TABLET*/
+@media only screen and (min-width: 800px) {
+ /*Header*/
+ .header-secciones__H1{
+   font-size:2.3em;
+   letter-spacing: 5px;
+   padding-bottom: 1rem;
+ }
+ .header-secciones {
+  height: 30vh;
+}
+  .icons {
+    border-top: 4px solid #8f457f;
+    padding: 2rem;
+    margin: 5rem 3rem 1rem 3rem;
+    font-size: 1.1em;
+  }
+  .section-icon_p{
+    text-align: center;
+    font-size: 1em;
+  }
+  .main-palinea1rra{
+    margin: 2rem 4rem 2rem 4rem;
+  }
+  .main-parra_p{
+    font-size: 1.1em;
+  }
+  .main-parra_h4{
+    font-size:2em;
+    margin: 0 0 3rem 0;
+  }
+  .container-linea{
+    margin: 0 0 4rem 0;
+  }
+  .linea1, .header-secciones__hr {
+    border: 2.5px solid #8f457f;
+  }
+  .habi-h1{
+    font-size:2.3em;
+    padding: 2rem;
+    top: -40px;
+    letter-spacing: 5px;
+  }
+  .swiper-slide{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .swiper-cont_size{
+      height: 60vh;
+  }
+  .swiper-habitaciones {
+    cursor: pointer;
+    margin-top: 0px;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  .swip-items {
+    position: absolute;
+    top: 68%;
+    left: 30px;
+  }
+  .swiper-slide h4 {
+    font-size:1.4em;
+    margin-bottom: 1.5rem;
+  }
+  .bode-parra {
+    border-bottom: 4px solid #8f457f;
+  }
+  .footer-container{
+    margin-top: 1rem;
+    height: 40vh;
+  }
+  .button-size{
+    border: 3px solid;
+    padding: 1rem 2rem 1rem 2rem;
+    font-size: 1.1em;
+    font-weight: 500;
+  }
+  .top-border {
+    border-top: 4px solid #8f457f;
+  }
+  .galeria-swiperItem {
+    margin: 1rem 0 2rem 0;
+  }
+  .margin-f{
+    margin-top: 4rem;
+  }
+}
+/*RESPONSIVE DESKTOP*/
+@media only screen and (min-width: 992px) {
+  /*Header*/
+ .header-secciones__H1{
+  font-size:3em;
+}
+  .icons {
+    padding: 2rem;
+    margin: 5rem 10rem 1rem 10rem;
+  }
+  .main-parra_h4{
+    font-size:2.3em;
+  }
+  .main-parra, .cards-container{
+    margin: 2rem 10rem 0 10rem;
+  }
+  .maps{
+    margin-top: 3.5rem;
+  }
+  .margen-xl{
+    margin-bottom: 3rem;
+  }
+  .habi-h1{
+    font-size:3em;
+  }
+  .swiper-cont_size{
+    height: 70vh;
+}
+  .swip-items {
+    top: 68%;
+    left: 40px;
+  }
+  .swiper-slide h4 {
+    font-size:1.7em;
+    margin-bottom: 2rem;
+  }
+  .modal-title{
+    font-size: 2em;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  /*Galeria habitaciones*/
+  .mySwiper {
+    width: 22rem;
+    height: 60vh;
+  }
+  .swiper-itemsText {
+    top:68%;
+    left: 10px;
+  }
+  .swiper-h4 {
+    font-size: 2em;
+  }
+}
